@@ -76,7 +76,7 @@ func main() {
 	fmt.Println("Altering Strings")
 	fmt.Println("Replace: ", strings.Replace(description, "England", "United Kingdom", 1))
 	fmt.Println("Replace All: ", strings.ReplaceAll(description, "nd", "ND"))
-
+	
 	fmt.Printf("\n\n")
 	fmt.Println("Building and Generating Strings")
 	elements := strings.Fields(description)
